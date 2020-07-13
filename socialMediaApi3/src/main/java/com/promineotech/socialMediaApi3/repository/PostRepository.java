@@ -1,5 +1,10 @@
 package com.promineotech.socialMediaApi3.repository;
 
-public interface PostRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import com.promineotech.socialMediaApi3.entity.Post;
+
+public interface PostRepository extends CrudRepository<Post, Long>{
+
 
 }
